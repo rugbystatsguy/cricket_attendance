@@ -334,7 +334,11 @@
     const absent = formatList(playerStatus.absent);
     const attended = formatList(playerStatus.attended);
 
+    const subject = `Attendance at FHHS U14 Cricket Practice- ${date}`;
+
     const message = `
+*${subject}*
+
 *Date:* ${date}
 *Place:* ${place}
 *Coach:* ${coach}
@@ -389,4 +393,3 @@ ${attended}
 
 </body>
 </html>
-
